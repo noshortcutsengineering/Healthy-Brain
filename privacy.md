@@ -1,7 +1,7 @@
 # Privacy Policy — Healthy Brain
 
 **Product:** Healthy Brain (Chrome extension)  
-**Effective date:** August 27, 2026  
+**Effective date:** August 28, 2026  
 **Developer:** [github.com/noshortcutsengineering/Healthy-Brain](https://github.com/noshortcutsengineering/Healthy-Brain)
 
 This Privacy Policy describes how the Healthy Brain Chrome extension (“the Extension,” “we,” “us”) handles information. It is written to satisfy Chrome Web Store privacy disclosure requirements.
