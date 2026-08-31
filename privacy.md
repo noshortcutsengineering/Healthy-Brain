@@ -1,7 +1,7 @@
 # Privacy Policy — Healthy Brain
 
 **Product:** Healthy Brain (Chrome extension)  
-**Effective date:** August 28, 2026  
+**Effective date:** August 31, 2026  
 **Developer:** [github.com/noshortcutsengineering/Healthy-Brain](https://github.com/noshortcutsengineering/Healthy-Brain)
 
 This Privacy Policy describes how the Healthy Brain Chrome extension (“the Extension,” “we,” “us”) handles information. It is written to satisfy Chrome Web Store privacy disclosure requirements.
@@ -27,6 +27,10 @@ Healthy Brain helps reduce distracting feeds by redirecting main-frame navigatio
 | youtube.com (any path) | https://feedly.com/ |
 | linkedin.com (any path) | https://feedly.com/ |
 | instagram.com (any path) | https://feedly.com/ |
+| x.com and twitter.com (any path) | https://feedly.com/ |
+| facebook.com and fb.com (any path) | https://feedly.com/ |
+| tiktok.com (any path) | https://feedly.com/ |
+| reddit.com and old.reddit.com (any path) | https://feedly.com/ |
 
 You can **pause** redirects for **one hour** from the extension popup. Redirects turn back on automatically after that hour, or sooner if you resume manually.
 
@@ -71,10 +75,10 @@ The Extension does not send user data to remote servers operated by us. Redirect
 
 | Permission | Purpose |
 | --- | --- |
-| `declarativeNetRequest` | Apply redirect rules from YouTube, LinkedIn, and Instagram to Feedly |
+| `declarativeNetRequest` | Apply redirect rules from social/feed sites to Feedly |
 | `storage` | Remember pause state and resume time on your device |
 | `alarms` | Automatically re-enable redirects one hour after a pause |
-| Host access to `youtube.com`, `linkedin.com`, `instagram.com` | Allow those sites’ main-frame navigations to be redirected |
+| Host access to `youtube.com`, `linkedin.com`, `instagram.com`, `x.com`, `twitter.com`, `facebook.com`, `fb.com`, `tiktok.com`, `reddit.com`, `old.reddit.com` | Allow those sites’ main-frame navigations to be redirected |
 
 These permissions are used only for the purposes above. They are not used to collect or monetize user data.
 
@@ -92,7 +96,7 @@ Local pause state is used solely to enable/disable redirects on your browser.
 
 We do not share Extension user data with third parties because we do not collect it.
 
-If you visit other sites through normal browsing or redirects, those sites (including **YouTube**, **LinkedIn**, **Instagram**, and **Feedly**) have their own privacy policies. The Extension does not control them.
+If you visit other sites through normal browsing or redirects, those sites (including **YouTube**, **LinkedIn**, **Instagram**, **X**, **Facebook**, **TikTok**, **Reddit**, and **Feedly**) have their own privacy policies. The Extension does not control them.
 
 ### Optional donations
 
@@ -133,7 +137,7 @@ We do not maintain user databases for this Extension. Local storage is managed b
 
 When filling out the Chrome Web Store privacy practices form for Healthy Brain, declare consistently with this policy:
 
-- **Single purpose:** Redirect YouTube, LinkedIn, and Instagram navigations to Feedly, with an optional 1-hour pause.  
+- **Single purpose:** Redirect social/feed site navigations to Feedly, with an optional 1-hour pause.  
 - **Does not collect user data** (no remote collection).  
 - **Does not sell user data.**  
 - **Does not use remote code** beyond the packaged extension.  
@@ -153,17 +157,3 @@ If this policy changes, we will update this document and the effective date. Con
 Questions about this Privacy Policy or the Extension:
 
 - GitHub Issues: [github.com/noshortcutsengineering/Healthy-Brain/issues](https://github.com/noshortcutsengineering/Healthy-Brain/issues)
-
----
-
-## How to use this file for the Chrome Web Store
-
-The Chrome Web Store requires a **public HTTPS privacy policy URL** (not only a file inside the `.zip`).
-
-Suggested options:
-
-1. **GitHub:** push `privacy.md` to the repo and use the rendered page URL, or enable GitHub Pages and link to it.  
-2. **GitHub Pages example:** `https://noshortcutsengineering.github.io/Healthy-Brain/privacy.html` (HTML version) or a Pages URL that serves this markdown.  
-3. Paste that HTTPS link into **Developer Dashboard → Privacy practices → Privacy policy**.
-
-Do **not** put `privacy.md` inside the extension package zip used for upload; keep it on a public website/repo page for reviewers and users.
